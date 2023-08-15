@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class FileInUserGson {
     public static void main(String[] args) {
         List<User> userList = new ArrayList<>();
-        try (Scanner scanner = new Scanner(new File("D:\\Home_Work_10\\src\\task_2\\file.txt"))) {
+        try (Scanner scanner = new Scanner(new File("src/task_2/file.txt"))) {
             String[] headers = scanner.nextLine().split(" ");
             while (scanner.hasNextLine()) {
                 String[] values = scanner.nextLine().split(" ");

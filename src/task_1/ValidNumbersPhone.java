@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 
 public class ValidNumbersPhone {
     public static void main(String[] args) {
-        try (BufferedReader bufferedReader = new BufferedReader(new FileReader("D:\\Home_Work_10\\src\\task_1\\file.txt"))) {
+        try (BufferedReader bufferedReader = new BufferedReader(new FileReader("src/task_1/file.txt"))) {
             String str;
             Pattern pattern = Pattern.compile("\\(\\d{3}\\) \\d{3}-\\d{4}|\\d{3}-\\d{3}-\\d{4}");
             while ((str = bufferedReader.readLine()) != null) {

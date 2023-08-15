@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class FrequencyOfEachWord {
     public static void main(String[] args) {
-        PriorityQueue<Map.Entry<String, Integer>> priorityQueue = countWordFrequency("D:\\Home_Work_10\\src\\task_3\\words.txt");
+        PriorityQueue<Map.Entry<String, Integer>> priorityQueue = countWordFrequency("src/task_3/words.txt");
         while (!priorityQueue.isEmpty()) {
             Map.Entry<String, Integer> entry = priorityQueue.poll();
             String word = entry.getKey();
